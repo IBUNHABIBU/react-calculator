@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
 
-## Available Scripts
+<p align="center">
+  <a href="git@github.com:IBUNHABIBU/platform-game.git">
+    <p align="center"> <img src="https://raw.githubusercontent.com/github/explore/b7c8510756ee50efb38d1f01896e72b7a9737296/topics/phaser/phaser.png" alt="Phaser" width="100" height="100"> </p>
+  </a>
 
-In the project directory, you can run:
+  <h2 align="center"> PLATFORM GAME</h2>
+  <h3 align="center"> This project is part of the Microverse curriculum in JavaScript module to design a platfom game using phaser library and test driven development</h3>
 
-### `npm start`
+  <p align="center">
+    <a href="https://github.com/IBUNHABIBU/platform-game/issues">Report Bug</a>
+    <a href="https://github.com/IBUNHABIBU/platform-game/issues">Request Feature</a>
+  </p>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [About the Project](#about-the-project)
+* [Story](#story)
+  * [Built With](#built-with)
+  * [Features](#features)
+  * [Requirements](#requirements)
+  * [Useful commands](#useful-commands)
+* [Contact](#Authors)
+* [Acknowledgements](#acknowledgements)
 
-### `npm test`
+<!-- ABOUT THE PROJECT -->
+## About The Project
+The objective of this project is to build a simple turn-based RPG game with a scoring system, using JavaScript ES6, Phaser 3 framework, and other modern technologies. See technologies used for more info. I had to design the story, the gameplay, the scenes, and the scoring system.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Story
+The player is the monster fish who eats all the small fish and being eaten by the big fish. As a player its your job to hit all the small fish as food and to get rid of the big fish because it will it you  unless you apply shock. So the enemies are rondom fish with different sizes.
 
-### `npm run build`
+### Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Player is the fish which eats small fish and being eaten by big fish.
+- A player is able to avoid the big fish.
+- It shows the scores.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## [Live demo](https://ibunhabibmonsterfish.netlify.app/ "Of the project")
+<br/>
+<div align="center">
 
-### `npm run eject`
+<img  src="https://github.com/IBUNHABIBU/platform-game/blob/feature/src/assets/images/phasergame.gif" />
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- BUILD WITH -->
+## Built With
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project was built using these technologies.
+* Phaser 3
+* Jest
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Requirement
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- npm
+- webpack
+- jest
 
-## Learn More
+### How to Install 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run Library-project locally, clone the repository, navigate to it's containing directory.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Follow these commands step by step:-
 
-### Code Splitting
+`
+git clone git@github.com:IBUNHABIBU/platform-game.git
+`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`
+cd platform-game
+`
 
-### Analyzing the Bundle Size
+ `$npm install `
+ 
+ 
+ `$npm run start`
+ 
+Enjoy playing it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Testing
 
-### Making a Progressive Web App
+ `$npm run test `
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Useful Commands
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+| Command | Description |
+|---------|-------------|
+| `npm install` | Install project dependencies |
+| `npm start` | Build project and open web server running project |
+| `npm run build` | Builds code bundle with production settings (minification, uglification, etc..) |
 
-### Deployment
+### How to play
+- Use arrow keys to navigate left, right , up and down.
+- Eat all the small fish and get rid of big fish otherwise the big fish wil eat you and game over.
+- Give a shock to a big fish to kill it.
+<!-- CONTACT -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## link to  [Video presentation](https://www.youtube.com/watch?v=v308XMzx26c)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+
+👤 **Salum Habibu** 
+    
+* Github: [IBUNHABIBU](https://github.com/IBUNHABIBU)
+* Twitter: [@ibunhabibu](https://twitter.com/Ibunhabibu)
+* LinkedIn: [Salum Habibu Kombo](https://www.linkedin.com/in/salum-habibu/)
+
+## Show your support
+
+Give a :star: if you like this project!
+
+
+## Acknowledgments
+Credits goes to all Mr Christian Ceamatu who helped me when I'm stuck.
+
+All my standup team for their help.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/IBUNHABIBU/tic-tac-toe-game.svg?style=flat-square
+[contributors-url]: https://github.com/IBUNHABIBU/tic-tac-toe-game/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/IBUNHABIBU/tic-tac-toe-game.svg?style=flat-square
+[forks-url]: https://github.com/IBUNHABIBU/tic-tac-toe-game/network/members
+[stars-shield]: https://img.shields.io/github/stars/IBUNHABIBU/tic-tac-toe-game.svg?style=flat-square
+[stars-url]: https://github.com/IBUNHABIBU/tic-tac-toe-game/stargazers
+[issues-shield]: https://img.shields.io/github/issues/IBUNHABIBU/tic-tac-toe-game.svg?style=flat-square
+[issues-url]: https://github.com/IBUNHABIBU/tic-tac-toe-game/issues
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.

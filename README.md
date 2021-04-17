@@ -127,14 +127,14 @@ All my standup team for their help.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/IBUNHABIBU/tic-tac-toe-game.svg?style=flat-square
-[contributors-url]: https://github.com/IBUNHABIBU/tic-tac-toe-game/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/IBUNHABIBU/tic-tac-toe-game.svg?style=flat-square
-[forks-url]: https://github.com/IBUNHABIBU/tic-tac-toe-game/network/members
-[stars-shield]: https://img.shields.io/github/stars/IBUNHABIBU/tic-tac-toe-game.svg?style=flat-square
-[stars-url]: https://github.com/IBUNHABIBU/tic-tac-toe-game/stargazers
-[issues-shield]: https://img.shields.io/github/issues/IBUNHABIBU/tic-tac-toe-game.svg?style=flat-square
-[issues-url]: https://github.com/IBUNHABIBU/tic-tac-toe-game/issues
+[contributors-shield]: https://img.shields.io/github/contributors/IBUNHABIBU/react-calculator.svg?style=flat-square
+[contributors-url]: https://github.com/IBUNHABIBU/react-calculator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/IBUNHABIBU/react-calculator.svg?style=flat-square
+[forks-url]: https://github.com/IBUNHABIBU/react-calculator/network/members
+[stars-shield]: https://img.shields.io/github/stars/IBUNHABIBU/react-calculator.svg?style=flat-square
+[stars-url]: https://github.com/IBUNHABIBU/react-calculator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/IBUNHABIBU/react-calculator.svg?style=flat-square
+[issues-url]: https://github.com/IBUNHABIBU/react-calculator/issues
 
 ## 📝 License
 

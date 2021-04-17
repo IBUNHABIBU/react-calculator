@@ -59,6 +59,7 @@ This project was built using these technologies.
 
 - Node.js
 - NPM
+- big.js
 
 ### How to Install 
 

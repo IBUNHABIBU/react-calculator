@@ -28,7 +28,7 @@
   * [Requirements](#requirements)
   * [Useful commands](#useful-commands)
 * [Contact](#Authors)
-* [Acknowledgements](#Acknowledgements)
+* [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project

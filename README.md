@@ -62,7 +62,7 @@ This project was built using these technologies.
 
 ### How to Install 
 
-To run Library-project locally, clone the repository, navigate to it's containing directory.
+To run this locally, clone the repository, navigate to it's containing directory.
 
 #### Follow these commands step by step:-
 
@@ -95,9 +95,7 @@ Enjoy playing it.
 | `npm run build` | Builds code bundle with production settings (minification, uglification, etc..) |
 
 ### How to play
-- Use arrow keys to navigate left, right , up and down.
-- Eat all the small fish and get rid of big fish otherwise the big fish wil eat you and game over.
-- Give a shock to a big fish to kill it.
+
 <!-- CONTACT -->
 
 

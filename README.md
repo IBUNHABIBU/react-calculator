@@ -6,7 +6,7 @@
 <br />
 
 <p align="center">
-  <a href="git@github.com:IBUNHABIBU/platform-game.git">
+  <a href="git@github.com:IBUNHABIBU/react-calculator.git">
     <p align="center"> <img src="https://raw.githubusercontent.com/github/explore/b7c8510756ee50efb38d1f01896e72b7a9737296/topics/phaser/phaser.png" alt="Phaser" width="100" height="100"> </p>
   </a>
 
@@ -14,8 +14,8 @@
   <h3 align="center"> This project is part of the Microverse curriculum in JavaScript module to design a platfom game using phaser library and test driven development</h3>
 
   <p align="center">
-    <a href="https://github.com/IBUNHABIBU/platform-game/issues">Report Bug</a>
-    <a href="https://github.com/IBUNHABIBU/platform-game/issues">Request Feature</a>
+    <a href="https://github.com/IBUNHABIBU/react-calculator/issues">Report Bug</a>
+    <a href="https://github.com/IBUNHABIBU/react-calculator/issues">Request Feature</a>
   </p>
 </p>
 
@@ -48,7 +48,7 @@ The player is the monster fish who eats all the small fish and being eaten by th
 <br/>
 <div align="center">
 
-<img  src="https://github.com/IBUNHABIBU/platform-game/blob/feature/src/assets/images/phasergame.gif" />
+<img  src="https://github.com/IBUNHABIBU/react-calculator/blob/feature/src/assets/images/phasergame.gif" />
 </div>
 
 <!-- BUILD WITH -->
@@ -71,11 +71,11 @@ To run Library-project locally, clone the repository, navigate to it's containin
 #### Follow these commands step by step:-
 
 `
-git clone git@github.com:IBUNHABIBU/platform-game.git
+git clone git@github.com:IBUNHABIBU/react-calculator.git
 `
 
 `
-cd platform-game
+cd react-calculator
 `
 
  `$npm install `

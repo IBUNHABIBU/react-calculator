@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="git@github.com:IBUNHABIBU/react-calculator.git">
-    <p align="center"> <img src="🖩" alt="Phaser" width="100" height="100"> </p>
+    <p align="center">🖩 </p>
   </a>
 
   <h2 align="center"> PLATFORM GAME</h2>

@@ -11,7 +11,7 @@
   </a>
 
   <h2 align="center"> REACT CALCULATOR</h2>
-  <h3 align="center"> This project is part of the Microverse curriculum in React.js module to design a fully functional calculator with all the basic functions</h3>
+  <h3 align="center"> This project is part of the Microverse curriculum in the React.js module to design a fully functional calculator with all the basic functions</h3>
 
   <p align="center">
     <a href="https://github.com/IBUNHABIBU/react-calculator/issues">Report Bug</a>

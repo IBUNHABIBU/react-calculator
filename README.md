@@ -32,16 +32,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-The objective of this project is to build a simple turn-based RPG game with a scoring system, using JavaScript ES6, Phaser 3 framework, and other modern technologies. See technologies used for more info. I had to design the story, the gameplay, the scenes, and the scoring system.
+The objective of this project is to build a simple calculator using Reactjs. It is fully fuctional calculator having all basic operation like addition, subtruction, multiplication, division, percentage, +/- and AC.
 
 ### Story
-The player is the monster fish who eats all the small fish and being eaten by the big fish. As a player its your job to hit all the small fish as food and to get rid of the big fish because it will it you  unless you apply shock. So the enemies are rondom fish with different sizes.
 
 ### Features
 
-- Player is the fish which eats small fish and being eaten by big fish.
-- A player is able to avoid the big fish.
-- It shows the scores.
+
 
 
 ## [Live demo](https://ibunhabibmonsterfish.netlify.app/ "Of the project")
@@ -55,14 +52,13 @@ The player is the monster fish who eats all the small fish and being eaten by th
 ## Built With
 
 This project was built using these technologies.
-* Phaser 3
-* Jest
+* React
+
 
 ### Requirement
 
-- npm
-- webpack
-- jest
+- Node.js
+- NPM
 
 ### How to Install 
 

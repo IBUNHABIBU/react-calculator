@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import PropTypes from 'prop-types';
+import Big from 'big.js'
+const App = ()=> {
   return (
     <div className="App">
       <header className="App-header">

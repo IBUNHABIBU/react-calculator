@@ -100,7 +100,7 @@ Enjoy playing it.
 <!-- CONTACT -->
 
 
-## link to  [Video presentation](https://www.youtube.com/watch?v=v308XMzx26c)
+## link to  [Live Demo ](https://mathmag.herokuapp.com/)
 
 ## Authors
 

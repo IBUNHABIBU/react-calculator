@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <code>React calculator</code>
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/IBUNHABIBU/react-calculator"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Fully functional react calculator app
         </a>
       </header>
     </div>

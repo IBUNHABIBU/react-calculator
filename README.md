@@ -48,7 +48,7 @@ The objective of this project is to build a simple calculator using Reactjs. It 
 
 
 
-## [Live demo](https://ibunhabibmonsterfish.netlify.app/ "Of the project")
+## [Live demo](https://mathmag.herokuapp.com/ "Of the project")
 <br/>
 <div align="center">
 

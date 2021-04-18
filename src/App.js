@@ -1,8 +1,9 @@
+import PropTypes from 'prop-types';
+import Big from 'big.js';
 import logo from './logo.svg';
 import './App.css';
-import PropTypes from 'prop-types';
-import Big from 'big.js'
-const App = ()=> {
+
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +22,6 @@ const App = ()=> {
       </header>
     </div>
   );
-}
+};
 
 export default App;

@@ -1,23 +1,17 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import Big from 'big.js';
 import logo from './logo.svg';
 import './App.css';
 
-export default class App extends Component {
-  static propTypes = {
-    prop: PropTypes
-  }
-
-  render() {
-    return (
-      <div className="App">
+const App = () => {
+  return (
+    <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-       <p>
+        <p>
           <code>React calculator</code>
         </p>
-         <a
+        <a
           className="App-link"
           href="https://github.com/IBUNHABIBU/react-calculator"
           target="_blank"
@@ -27,7 +21,7 @@ export default class App extends Component {
         </a>
       </header>
     </div>
-    )
-  }
-}
+  );
+};
 
+export default App;

@@ -1,22 +1,23 @@
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Big from 'big.js';
-import './App.css';
-import React from 'react'
-import PropTypes from 'prop-types'
 
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+const propTypes = {
+  prop: PropTypes,
+};
 
 export default class App extends Component {
-  static propTypes = {
-    prop: PropTypes
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
   }
 
   render() {
     return (
-        <div>
-                
-        </div>
-    )
+      <div>
+        <h1>Welcome to react calculator</h1>
+      </div>
+    );
   }
 }

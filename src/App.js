@@ -1,25 +1,13 @@
 import PropTypes from 'prop-types';
 import Big from 'big.js';
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>React calculator</code>
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/IBUNHABIBU/react-calculator"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Fully functional react calculator app
-        </a>
-      </header>
+    <div>
+      <h1>Hello world</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
   );
 };

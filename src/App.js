@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Big from 'big.js';
@@ -16,7 +17,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>Welcome to react calculator</h1>
+        <h1 align="center">React calculator</h1>
       </div>
     );
   }

@@ -1,15 +1,22 @@
 import PropTypes from 'prop-types';
 import Big from 'big.js';
 import './App.css';
-import React from 'react';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const App = () => {
-  return (
-    <div>
-      <h1>Hello world</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </div>
-  );
-};
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
-export default App;
+export default class App extends Component {
+  static propTypes = {
+    prop: PropTypes
+  }
+
+  render() {
+    return (
+        <div>
+                
+        </div>
+    )
+  }
+}

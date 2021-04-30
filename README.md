@@ -93,7 +93,7 @@ Enjoy playing it.
 | `npm start` | Build project and open web server running project |
 | `npm run build` | Builds code bundle with production settings (minification, uglification, etc..) |
 
-### How to play
+<!-- ### How to play -->
 
 <!-- CONTACT -->
 

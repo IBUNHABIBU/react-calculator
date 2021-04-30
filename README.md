@@ -46,15 +46,6 @@ The objective of this project is to build a simple calculator using Reactjs. It 
     - deploy to heroku 
 
 
-
-
-## [Live demo](https://mathmag.herokuapp.com/ "Of the project")
-<br/>
-<div align="center">
-
-<img  src="https://github.com/IBUNHABIBU/react-calculator/blob/feature/src/assets/images/phasergame.gif" />
-</div>
-
 <!-- BUILD WITH -->
 ## Built With
 

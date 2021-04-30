@@ -114,9 +114,8 @@ Give a :star: if you like this project!
 
 
 ## Acknowledgments
-Credits go to all <!--Mr Christian Ceamatu who helped me when I'm stuck. -->
-
-All my standup team for their help.
+Credits go to  <!--Mr Christian Ceamatu who helped me when I'm stuck. -->
+all my standup team for their help.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

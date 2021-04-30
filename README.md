@@ -114,7 +114,7 @@ Give a :star: if you like this project!
 
 
 ## Acknowledgments
-Credits goes to all Mr Christian Ceamatu who helped me when I'm stuck.
+Credits goes to all <!--Mr Christian Ceamatu who helped me when I'm stuck. -->
 
 All my standup team for their help.
 

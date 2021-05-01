@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
 
-## Available Scripts
+<p align="center">
+  <a href="git@github.com:IBUNHABIBU/react-calculator.git">
+    <p align="center">🖩 </p>
+  </a>
 
-In the project directory, you can run:
+  <h2 align="center"> REACT CALCULATOR</h2>
+  <h3 align="center"> This project is part of the Microverse curriculum in the React.js module to design a fully functional calculator with all the basic functions</h3>
 
-### `npm start`
+  <p align="center">
+    <a href="https://github.com/IBUNHABIBU/react-calculator/issues">Report Bug</a>
+    <a href="https://github.com/IBUNHABIBU/react-calculator/issues">Request Feature</a>
+  </p>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [About the Project](#about-the-project)
+* [Story](#story)
+  * [Built With](#built-with)
+  * [Features](#features)
+  * [Requirements](#requirements)
+  * [Useful commands](#useful-commands)
+* [Contact](#Authors)
+* [Acknowledgements](#Acknowledgements)
 
-### `npm test`
+<!-- ABOUT THE PROJECT -->
+## About The Project
+The objective of this project is to build a simple calculator using Reactjs. It is fully fuctional calculator having all basic operation like addition, subtruction, multiplication, division, percentage, +/- and AC.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Story
 
-### `npm run build`
+### Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## [Live demo](https://ibunhabibmonsterfish.netlify.app/ "Of the project")
+<br/>
+<div align="center">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<img  src="https://github.com/IBUNHABIBU/react-calculator/blob/feature/src/assets/images/phasergame.gif" />
+</div>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- BUILD WITH -->
+## Built With
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This project was built using these technologies.
+* React
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Requirement
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Node.js
+- NPM
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### How to Install 
 
-### Code Splitting
+To run this locally, clone the repository, navigate to it's containing directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Follow these commands step by step:-
 
-### Analyzing the Bundle Size
+`
+git clone git@github.com:IBUNHABIBU/react-calculator.git
+`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+`
+cd react-calculator
+`
 
-### Making a Progressive Web App
+ `$npm install `
+ 
+ 
+ `$npm run start`
+ 
+Enjoy playing it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Testing
 
-### Advanced Configuration
+ `$npm run test `
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Useful Commands
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+| Command | Description |
+|---------|-------------|
+| `npm install` | Install project dependencies |
+| `npm start` | Build project and open web server running project |
+| `npm run build` | Builds code bundle with production settings (minification, uglification, etc..) |
 
-### `npm run build` fails to minify
+### How to play
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- CONTACT -->
+
+
+## link to  [Video presentation](https://www.youtube.com/watch?v=v308XMzx26c)
+
+## Authors
+
+👤 **Salum Habibu** 
+    
+* Github: [IBUNHABIBU](https://github.com/IBUNHABIBU)
+* Twitter: [@ibunhabibu](https://twitter.com/Ibunhabibu)
+* LinkedIn: [Salum Habibu Kombo](https://www.linkedin.com/in/salum-habibu/)
+
+## Show your support
+
+Give a :star: if you like this project!
+
+
+## Acknowledgments
+Credits goes to all Mr Christian Ceamatu who helped me when I'm stuck.
+
+All my standup team for their help.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/IBUNHABIBU/react-calculator.svg?style=flat-square
+[contributors-url]: https://github.com/IBUNHABIBU/react-calculator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/IBUNHABIBU/react-calculator.svg?style=flat-square
+[forks-url]: https://github.com/IBUNHABIBU/react-calculator/network/members
+[stars-shield]: https://img.shields.io/github/stars/IBUNHABIBU/react-calculator.svg?style=flat-square
+[stars-url]: https://github.com/IBUNHABIBU/react-calculator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/IBUNHABIBU/react-calculator.svg?style=flat-square
+[issues-url]: https://github.com/IBUNHABIBU/react-calculator/issues
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.

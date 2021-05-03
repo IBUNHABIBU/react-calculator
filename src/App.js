@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable no-unused-vars */
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import Big from 'big.js';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>React calculator</code>
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/IBUNHABIBU/react-calculator"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Fully functional react calculator app
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        <h1 align="center">React calculator</h1>
+      </div>
+    );
+  }
 }
-
-export default App;

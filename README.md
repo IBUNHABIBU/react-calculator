@@ -38,15 +38,13 @@ The objective of this project is to build a simple calculator using Reactjs. It 
 
 ### Features
 
+   #### Milestone 1
 
+    - Setup the project with NPM use
+    - import proptypes 
+    - import big.js
+    - deploy to heroku 
 
-
-## [Live demo](https://ibunhabibmonsterfish.netlify.app/ "Of the project")
-<br/>
-<div align="center">
-
-<img  src="https://github.com/IBUNHABIBU/react-calculator/blob/feature/src/assets/images/phasergame.gif" />
-</div>
 
 <!-- BUILD WITH -->
 ## Built With
@@ -59,6 +57,7 @@ This project was built using these technologies.
 
 - Node.js
 - NPM
+- big.js
 
 ### How to Install 
 
@@ -94,12 +93,12 @@ Enjoy playing it.
 | `npm start` | Build project and open web server running project |
 | `npm run build` | Builds code bundle with production settings (minification, uglification, etc..) |
 
-### How to play
+<!-- ### How to play -->
 
 <!-- CONTACT -->
 
 
-## link to  [Video presentation](https://www.youtube.com/watch?v=v308XMzx26c)
+## link to  [Live Demo ](https://mathmag.herokuapp.com/)
 
 ## Authors
 
@@ -115,9 +114,8 @@ Give a :star: if you like this project!
 
 
 ## Acknowledgments
-Credits goes to all Mr Christian Ceamatu who helped me when I'm stuck.
-
-All my standup team for their help.
+Credits go to  <!--Mr Christian Ceamatu who helped me when I'm stuck. -->
+all my standup team for their help.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->

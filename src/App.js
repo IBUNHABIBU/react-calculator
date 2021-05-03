@@ -14,6 +14,7 @@ export default class App extends Component {
     return (
       <div>
         <h1 align="center">React calculator</h1>
+        <p align="center">This is the first milestone of the react calculator project</p>
       </div>
     );
   }

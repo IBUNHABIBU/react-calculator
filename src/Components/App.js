@@ -2,12 +2,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Big from 'big.js';
+import Display from './Display';
 
 const App = () => (
-  <div>
-    <h1>The React calculator</h1>
-    <p>This is the second milestone of the react app</p>
-  </div>
+  <>
+    <Display />
+    <ButtonPanel />
+  </>
 );
 
 export default App;

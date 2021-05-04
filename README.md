@@ -98,7 +98,7 @@ Enjoy playing it.
 <!-- CONTACT -->
 
 
-## link to  [Live Demo ](https://mathmag.herokuapp.com/)
+## link to  [Live Demo ](https://mathics.herokuapp.com/)
 
 ## Authors
 

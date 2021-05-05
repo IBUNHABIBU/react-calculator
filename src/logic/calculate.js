@@ -1,4 +1,6 @@
 /* eslint-disable no-unused-vars */
+import operate from './operate';
+
 const calculate = ( data, btnName ) => {
   let { total, next, operation } = data;
   switch (btnName) {
@@ -10,8 +12,14 @@ const calculate = ( data, btnName ) => {
       total *= -1
       next *= -1
     break;
+    case '%':
+      total = operate(total, 100, btnName)
+    break;
+    case 'x':case '÷': case '+': case '-':
+      operation = btnName;
+      break;
     default:
-          total = null;
+      total = null;
   }
 }
 

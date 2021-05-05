@@ -1,19 +1,19 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
-import Big from 'big.js';
-import PropTypes from 'prop-types';
-
-const Calculate = ({ data, btnName }) => {
+const calculate = ( data, btnName ) => {
   let { total, next, operation } = data;
-  return (
-    <>
-    </>
-  );
+  switch (btnName) {
+    case 'AC':
+      total = 0
+      next = 0
+    break;
+    case '+/-':
+      total *= -1
+      next *= -1
+    break;
+    default:
+          total = null;
+  }
 }
 
-Calculate.propTypes = {
-  data: PropTypes.string.isRequired,
-  btnName: PropTypes.string.isRequired,
-};
 
-export default Calculate;
+export default calculate;

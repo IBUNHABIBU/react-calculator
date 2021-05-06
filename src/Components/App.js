@@ -5,12 +5,21 @@ import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
 
 export default class App extends Component {
-  constructor(props){
-    super(props)
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: null,
+      next: null,
+      operate: null,
+    };
   }
-  render () {
-    return(
+
+  render() {
+    return (
+      <>
       <Display />
-    )
+      <ButtonPanel/>
+      </>
+    );
   }
 }

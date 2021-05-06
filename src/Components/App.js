@@ -1,13 +1,16 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
+import React, { Component } from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
 
-const App = () => (
-  <>
-    <Display />
-    <ButtonPanel />
-  </>
-);
-export default App;
+export default class App extends Component {
+  constructor(props){
+    super(props)
+  }
+  render () {
+    return(
+      <Display />
+    )
+  }
+}

@@ -1,7 +1,9 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import Button from './Button';
+import PropTypes from 'prop-types';
 
-const ButtonPanel = () => (
+const ButtonPanel = ({ clickHandler }) => (
   <>
     <div>
       <Button value="AC" />

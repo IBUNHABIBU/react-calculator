@@ -8,7 +8,7 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      total: null,
+      total: '0',
     };
   }
 
@@ -21,7 +21,7 @@ export default class App extends Component {
     const { total } = this.state;
     return (
       <>
-        <Display result={total} />
+        <Display result= {total} />
         <ButtonPanel clickHandler={this.handleClick} />
       </>
     );

@@ -9,33 +9,33 @@ const ButtonPanel = ({ clickHandler }) => {
   return (
     <>
       <div>
-        <Button clickHandler={handleClick} />
-        <Button clickHandler={handleClick}>
-        <Button clickHandler={handleClick}>
-        <Button clickHandler={handleClick}>
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
       </div>
       <div>
-        <Button clickHandler={handleClick}>
-        <Button clickHandler={handleClick}>
-        <Button clickHandler={handleClick}>
-        <Button clickHandler={handleClick}>
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
       </div>
       <div>
-        <Button clickHandler={handleClick}>
-        <Button clickHandler={handleClick}>
-        <Button clickHandler={handleClick} />
-        <Button clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
       </div>
       <div>
-        <Button clickHandler={handleClick} />
-        <Button clickHandler={handleClick} />
-        <Button clickHandler={handleClick} />
-        <Button clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
       </div>
       <div>
-        <Button clickHandler={handleClick} />
-        <Button clickHandler={handleClick} />
-        <Button clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
+        <Button value="AC" clickHandler={handleClick} />
       </div>
     </>
   );

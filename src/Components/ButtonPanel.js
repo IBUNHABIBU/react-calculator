@@ -8,35 +8,35 @@ const ButtonPanel = ({ clickHandler }) => {
 
   return (
     <>
-    <div>
-      <Button value="AC" clickHandler />
-      <Button value="+/-" clickHandler />
-      <Button value="%" clickHandler />
-      <Button value="÷" clickHandler />
-    </div>
-    <div>
-      <Button value="7" clickHandler />
-      <Button value="8" clickHandler />
-      <Button value="9" clickHandler />
-      <Button value="X" clickHandler />
-    </div>
-    <div>
-      <Button value="4" clickHandler />
-      <Button value="5" clickHandler />
-      <Button value="6" clickHandler />
-      <Button value="-" clickHandler />
-    </div>
-    <div>
-      <Button value="1" clickHandler />
-      <Button value="2" clickHandler />
-      <Button value="3" clickHandler />
-      <Button value="+" clickHandler />
-    </div>
-    <div>
-      <Button value="0" clickHandler />
-      <Button value="." clickHandler />
-      <Button value="=" clickHandler />
-    </div>
+      <div>
+        <Button clickHandler={() => handleClick(btnName)}>AC</Button>
+        <Button clickHandler={() => handleClick(btnName)}>+/-</Button>
+        <Button value="%" clickHandler={() => handleClick(btnName)} />+/-</Button>
+        <Button value="÷" clickHandler={() => handleClick(btnName)} />+/-</Button>
+      </div>
+      <div>
+        <Button value="7" clickHandler={() => handleClick(btnName)} >7</Button>
+        <Button value="8" clickHandler={() => handleClick(btnName)} >8</Button>
+        <Button value="9" clickHandler={() => handleClick(btnName)} >9</Button>
+        <Button value="X" clickHandler={() => handleClick(btnName)} >X</Button>
+      </div>
+      <div>
+        <Button  clickHandler={() => handleClick(btnName)} >+/-</Button>
+        <Button  clickHandler={() => handleClick(btnName)} >+/-</Button>
+        <Button  clickHandler={() => handleClick(btnName)} >+/-</Button>
+        <Button  clickHandler={() => handleClick(btnName)} >+/-</Button>
+      </div>
+      <div>
+        <Button  clickHandler={() => handleClick(btnName)} >+/-</Button>
+        <Button  clickHandler={() => handleClick(btnName)} >+/-</Button>
+        <Button  clickHandler={() => handleClick(btnName)} >+/-</Button>
+        <Button  clickHandler={() => handleClick(btnName)} >+/-</Button>
+      </div>
+      <div>
+        <Button  clickHandler={() => handleClick(btnName)} >+/-</Button>
+        <Button  clickHandler={() => handleClick(btnName)} >+/-</Button>
+        <Button  clickHandler={() => handleClick(btnName)} >+/-</Button>
+      </div>
     </>
   );
 };

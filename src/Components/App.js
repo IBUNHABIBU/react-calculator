@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-vars */
+
 import React, { Component } from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
@@ -21,7 +22,7 @@ export default class App extends Component {
     const { total } = this.state;
     return (
       <>
-        <Display result= {total} />
+        <Display result={total} />
         <ButtonPanel clickHandler={this.handleClick} />
       </>
     );

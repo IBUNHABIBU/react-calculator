@@ -18,9 +18,8 @@
         "react"
     ],
     "rules": {
+        "linebreak-style": ["error", "windows"],
         "react/jsx-filename-extension": [0],
-        "import/extensions": "off",
-        "eslint linebreak-style": ["error", "windows"]
-    },
-    "eslint linebreak-style": ["error", "windows"]
+        "import/extensions": "off"
+    }
 }

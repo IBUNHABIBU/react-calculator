@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-
 import React, { Component } from 'react';
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
@@ -9,12 +7,11 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      total: '0',
+      total: null,
     };
   }
 
   handleClick = (btnName) => {
-    const newState = this.state;
     this.setState((data) => calculate(data, btnName));
   }
 

@@ -38,10 +38,10 @@ The objective of this project is to build a simple calculator using Reactjs. It 
 
 ### Features
 
-   #### Milestone 4
+   #### Milestone 5
 
-    - Implement calculate and operate components
-    - import calculate to the app component
+    - Integrating logic with components
+    - implementing the clickHandler
     - add big.js
     - deploy to heroku 
 

@@ -17,9 +17,10 @@ export default class App extends Component {
 
   render() {
     const { total } = this.state;
+    const res = total;
     return (
       <>
-        <Display result={total} />
+        <Display result={res} />
         <ButtonPanel clickHandler={this.handleClick} />
       </>
     );

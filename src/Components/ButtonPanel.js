@@ -4,39 +4,28 @@ import PropTypes from 'prop-types';
 import Button from './Button';
 
 const ButtonPanel = ({ clickHandler }) => {
+  const btnGroups = [
+    ['AC', '+/-', '%', '÷'],
+    ['7', '8', '9', 'x'],
+    ['4', '5', '6', '-'],
+    ['1', '2', '3', '+'],
+    ['0', '.', '='],
+  ];
+
   const handleClick = (btnName) => clickHandler(btnName);
 
   return (
     <>
-      <div>
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-      </div>
-      <div>
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-      </div>
-      <div>
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-      </div>
-      <div>
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-      </div>
-      <div>
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-        <Button value="AC" clickHandler={handleClick} />
-      </div>
+
+      {
+          btnGroups.map((group) => (
+            <div className="btn-panel">
+              {
+                group.map((element) => <Button value={element} />)
+              }
+            </div>
+          ))
+        }
     </>
   );
 };

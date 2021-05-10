@@ -5,22 +5,24 @@ const calculate = (data, btnName) => {
   let { total, next, operation } = data;
   switch (btnName) {
     case 'AC':
-      total = 0;
-      next = 0;
+      total = null;
+      next = null;
+      operation = null;
       break;
     case '+/-':
       total *= -1;
       next *= -1;
       break;
-    case '%':
-      total = operate(total, 100, btnName);
+
+    case 'x': case '÷': case '+': case '-': case '%':
+      total = operate(total, next, operation);
       break;
-    case 'x': case '÷': case '+': case '-':
-      operation = btnName;
-      break;
+    case '=':
+      return next ? operate(total, next, operation) : total;
     default:
       total = null;
   }
+  return total;
 };
 
 export default calculate;

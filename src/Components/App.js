@@ -8,21 +8,23 @@ export default class App extends Component {
     super(props);
     this.state = {
       total: null,
+      next: null,
     };
   }
 
   handleClick = (btnName) => {
-    const { total } = this.state;
-    const r = calculate({ total }, btnName);
-    this.setState({ total: r.total });
+    this.setState((data) => {
+      console.log(data);
+      calculate(data, btnName);
+    });
   }
 
   render() {
-    const { total } = this.state;
-    const res = total;
+    const { total, next } = this.state;
+    const res = total || next;
     return (
       <>
-        <Display result={ res } />
+        <Display result={res} />
         <ButtonPanel clickHandler={this.handleClick} />
       </>
     );

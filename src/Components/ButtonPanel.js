@@ -21,7 +21,7 @@ const ButtonPanel = ({ clickHandler }) => {
           btnGroups.map((group) => (
             <div className="btn-panel">
               {
-                group.map((element) => <Button value={element} />)
+                group.map((item) => <Button value={item} clickHandler={() => handleClick(item)} />)
               }
             </div>
           ))

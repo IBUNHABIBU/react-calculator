@@ -1,8 +1,8 @@
 import Big from 'big.js';
 
 const operate = (numberOne, numberTwo, operation) => {
-  const firstNumber = Big(numberOne);
-  const secondNumber = Big(numberTwo);
+  const firstNumber = Big(parseFloat(numberOne));
+  const secondNumber = Big(parseFloat(numberTwo));
   let result;
 
   switch (operation) {

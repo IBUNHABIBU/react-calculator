@@ -13,10 +13,7 @@ export default class App extends Component {
   }
 
   handleClick = (btnName) => {
-    this.setState((data) => {
-      console.log(data);
-      calculate(data, btnName);
-    });
+    this.setState((data) => calculate(data, btnName));
   }
 
   render() {
@@ -24,7 +21,9 @@ export default class App extends Component {
     const res = total || next;
     return (
       <>
-        <Display result={res} />
+        <div className="display-container">
+          <Display result={res} />
+        </div>
         <ButtonPanel clickHandler={this.handleClick} />
       </>
     );

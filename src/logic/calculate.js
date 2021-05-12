@@ -1,28 +1,42 @@
 /* eslint-disable no-unused-vars */
+/* eslint-disable no-unused-expressions */
 import operate from './operate';
 
 const calculate = (data, btnName) => {
+  if (!data) { return { total: null, next: null, operation: null }; }
   let { total, next, operation } = data;
-  switch (btnName) {
-    case 'AC':
-      total = null;
-      next = null;
-      operation = null;
-      break;
-    case '+/-':
-      total *= -1;
-      next *= -1;
-      break;
+  if (!parseInt(btnName, 10) && btnName !== '0') {
+    if (!total) {
+      return data;
+    }
+    switch (btnName) {
+      case 'AC':
+        total = null;
+        next = null;
+        operation = null;
+        break;
+      case '+/-':
+        total *= -1;
+        next *= -1;
+        break;
 
-    case 'x': case '÷': case '+': case '-': case '%':
-      total = operate(total, next, operation);
-      break;
-    case '=':
-      return next ? operate(total, next, operation) : total;
-    default:
-      total = null;
+      case 'x': case '÷': case '+': case '-': case '%':
+        operation = btnName;
+        break;
+      case '=':
+        return next ? operate(total, next, operation) : total;
+      default:
+        total = null;
+    }
+  } else if (operation && operation !== '=') {
+    next ? next += btnName : next = btnName;
+  } else if (operation === '=') {
+    total = btnName;
+    operation = null;
+  } else {
+    total ? total += btnName : total = btnName;
   }
-  return total;
+  return { total, next, operation };
 };
 
 export default calculate;

@@ -12,9 +12,7 @@ export default class App extends Component {
     };
   }
 
-  handleClick = (btnName) => {
-    this.setState((data) => calculate(data, btnName));
-  }
+  handleClick = (btnName) => this.setState((data) => calculate(data, btnName));
 
   render() {
     const { total, next } = this.state;

@@ -7,7 +7,7 @@ const calculate = (data, btnName) => {
   let { total, next, operation } = data;
   if (!parseInt(btnName, 10) && btnName !== '0') {
     if (!total) {
-      return data;
+      return false;
     }
     switch (btnName) {
       case 'AC':
@@ -20,7 +20,7 @@ const calculate = (data, btnName) => {
         next *= -1;
         break;
 
-      case 'x': case '÷': case '+': case '-': case '%':
+      case 'X': case '÷': case '+': case '-': case '%':
         operation = btnName;
         break;
       case '=':

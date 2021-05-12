@@ -6,7 +6,7 @@ import Button from './Button';
 const ButtonPanel = ({ clickHandler }) => {
   const btnGroups = [
     ['AC', '+/-', '%', '÷'],
-    ['7', '8', '9', 'x'],
+    ['7', '8', '9', 'X'],
     ['4', '5', '6', '-'],
     ['1', '2', '3', '+'],
     ['0', '.', '='],

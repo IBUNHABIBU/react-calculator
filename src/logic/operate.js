@@ -7,7 +7,7 @@ const operate = (numberOne, numberTwo, operation) => {
 
   switch (operation) {
     case '%':
-      result = firstNumber.div(secondNumber);
+      result = firstNumber.div(100);
       break;
     case '÷':
       result = firstNumber.div(secondNumber);
@@ -25,7 +25,7 @@ const operate = (numberOne, numberTwo, operation) => {
       result = null;
       break;
   }
-  return result;
+  return result.toString();
 };
 
 export default operate;

@@ -4,7 +4,7 @@ import operate from './operate';
 
 const calculate = (data, btnName) => {
   let { total, next, operation } = data;
-  if (!parseInt(btnName, 10)) {
+  if (!parseInt(btnName, 10) && btnName !== '0') {
     switch (btnName) {
       case '+': case 'X': case '-': case '÷':
         operation = btnName;
@@ -12,6 +12,7 @@ const calculate = (data, btnName) => {
       case '=':
         total = operate(total, next, operation);
         next = null;
+        operation = null;
         break;
       case 'AC':
         total = null;
@@ -38,18 +39,23 @@ const calculate = (data, btnName) => {
         break;
     }
   } else if (!total) {
+    console.log('first,', next);
     total = btnName;
   } else if (!operation) {
+    console.log('first 2,', next);
     total += btnName;
     next = null;
     operation = null;
   } else if (!next) {
+    console.log('first3', next);
     next = btnName;
+  } else if (operation === '÷' && next === '0') {
+    console.log('operation');
+    return null;
   } else {
+    console.log('last', next);
     next += btnName;
-    console.log('next value', next);
   }
-  console.log('Result', total, next);
 
   return { total, next, operation };
 };

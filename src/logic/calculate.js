@@ -9,6 +9,11 @@ const calculate = (data, btnName) => {
       case '+': case 'X': case '-': case '÷':
         operation = btnName;
         break;
+      case '%':
+        operation = btnName;
+        total = operate(total, 100, operation);
+        operation = null;
+        break;
       case '=':
         total = operate(total, next, operation);
         next = null;

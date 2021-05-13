@@ -10,7 +10,7 @@ const operate = (numberOne, numberTwo, operation) => {
       break;
     case '÷':
       if (secondNumber.toNumber() === 0) {
-        return 'You cannot devide any number by zero';
+        return 'Can"t" devide by 0';
       }
       result = firstNumber.div(secondNumber);
       break;

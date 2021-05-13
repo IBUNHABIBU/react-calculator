@@ -1,41 +1,55 @@
 /* eslint-disable no-unused-vars */
-/* eslint-disable no-unused-expressions */
+
 import operate from './operate';
 
 const calculate = (data, btnName) => {
-  if (!data) { return { total: null, next: null, operation: null }; }
   let { total, next, operation } = data;
-  if (!parseInt(btnName, 10) && btnName !== '0') {
-    if (!total) {
-      return false;
-    }
+  if (!parseInt(btnName, 10)) {
     switch (btnName) {
+      case '+': case 'X': case '-': case '÷':
+        operation = btnName;
+        break;
+      case '=':
+        total = operate(total, next, operation);
+        break;
       case 'AC':
         total = null;
         next = null;
         operation = null;
         break;
       case '+/-':
-        total *= -1;
-        next *= -1;
+        if (next) {
+          next *= -1;
+        } else {
+          total *= -1;
+        }
         break;
-
-      case 'X': case '÷': case '+': case '-': case '%':
-        operation = btnName;
+      case '.':
+        if (next && !next.includes('.')) {
+          next += btnName;
+        }
+        if (total && !total.includes('.')) {
+          total += btnName;
+        }
         break;
-      case '=':
-        return next ? operate(total, next, operation) : total;
       default:
         total = null;
+        break;
     }
-  } else if (operation && operation !== '=') {
-    next ? next += btnName : next = btnName;
-  } else if (operation === '=') {
+  } else if (!total) {
     total = btnName;
+  } else if (!operation) {
+    total += btnName;
+    next = null;
     operation = null;
+  } else if (!next) {
+    next = btnName;
   } else {
-    total ? total += btnName : total = btnName;
+    next += btnName;
+    console.log('next value', next);
   }
+  console.log('Result', total, next);
+
   return { total, next, operation };
 };
 

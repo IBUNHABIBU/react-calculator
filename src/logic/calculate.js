@@ -11,6 +11,7 @@ const calculate = (data, btnName) => {
         break;
       case '=':
         total = operate(total, next, operation);
+        next = null;
         break;
       case 'AC':
         total = null;

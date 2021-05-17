@@ -44,21 +44,16 @@ const calculate = (data, btnName) => {
         break;
     }
   } else if (!total) {
-    console.log('first,', next);
     total = btnName;
   } else if (!operation) {
-    console.log('first 2,', next);
     total += btnName;
     next = null;
     operation = null;
   } else if (!next) {
-    console.log('first3', next);
     next = btnName;
   } else if (operation === '÷' && next === '0') {
-    console.log('operation');
     return null;
   } else {
-    console.log('last', next);
     next += btnName;
   }
 

@@ -38,15 +38,13 @@
   }
 }
 
-.display-container {
-  background-color: #61dafb;
-  height: 3rem;
-  font-size: 1rem;
+.app-container {
+  width: 700px;
 }
 
-button {
-  padding: 1rem;
-  color: white;
-  font-size: 1rem;
-  background-color: blue;
+.display-container {
+  display: flex;
+  background-color: red;
+  border: 2px solid green;
+  height: 100px;
 }

@@ -28,6 +28,7 @@
   width: calc( var(--primary-width) * 0.25);
   font-size: 1.4rem;
   font-weight: bold;
+  border: 1px solid var(--primary-color);
 }
 
 .btn.zero {

@@ -26,6 +26,14 @@
 
 .btn {
   width: calc( var(--primary-width) * 0.25);
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-weight: bold;
+}
+
+.btn.zero {
+  width: calc( var(--primary-width) * 0.5 );
+}
+
+.btn.o-class {
+  background-color: #ff9000;
 }

@@ -2,11 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './App.css';
 
-const Button = ({ value, clickHandler }) => {
+const Button = ({
+  value,
+  wide,
+  color,
+  clickHandler,
+}) => {
   const handleClick = (btnName) => clickHandler(btnName);
   return (
     <>
-      <button className="btn" type="button" onClick={() => handleClick(value)}>
+      <button className={`${color} ${wide} btn`} type="button" onClick={() => handleClick(value)}>
         { value }
       </button>
     </>
@@ -14,6 +19,8 @@ const Button = ({ value, clickHandler }) => {
 };
 Button.propTypes = {
   value: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
+  wide: PropTypes.string.isRequired,
   clickHandler: PropTypes.func.isRequired,
 };
 

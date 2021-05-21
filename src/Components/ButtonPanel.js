@@ -22,8 +22,8 @@ const ButtonPanel = ({ clickHandler }) => {
             <div className="btn-panel">
               {
                 group.map((item) => {
-                  const wide = item === '0' ? true : undefined;
-                  const color = orangeBtns.includes(item) ? true : undefined;
+                  const wide = item === '0' ? 'zero' : '';
+                  const color = orangeBtns.includes(item) ? 'o-class' : '';
                   return (
                     <Button
                       wide={wide}

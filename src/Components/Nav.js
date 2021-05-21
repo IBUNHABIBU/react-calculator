@@ -2,7 +2,9 @@ import React from 'react';
 
 const Nav = () => (
   <div>
-    <h1>Nav</h1>
+    <a href="/">Home</a>
+    <a href="/Calculator">Calculator</a>
+    <a href="/Quote">Quote</a>
   </div>
 );
 

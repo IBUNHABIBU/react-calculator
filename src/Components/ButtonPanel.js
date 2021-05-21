@@ -11,7 +11,7 @@ const ButtonPanel = ({ clickHandler }) => {
     ['1', '2', '3', '+'],
     ['0', '.', '='],
   ];
-
+  const orangeBtns = ['+', 'X', '-', '=', '÷'];
   const handleClick = (btnName) => clickHandler(btnName);
 
   return (
@@ -21,7 +21,18 @@ const ButtonPanel = ({ clickHandler }) => {
           btnGroups.map((group) => (
             <div className="btn-panel">
               {
-                group.map((item) => <Button value={item} clickHandler={() => handleClick(item)} />)
+                group.map((item) => {
+                  const wide = item === '0' ? true : undefined;
+                  const color = orangeBtns.includes(item) ? true : undefined;
+                  return (
+                    <Button
+                      wide={wide}
+                      color={color}
+                      value={item}
+                      clickHandler={() => handleClick(item)}
+                    />
+                  );
+                })
               }
             </div>
           ))

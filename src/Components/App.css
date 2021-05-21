@@ -16,9 +16,16 @@
   padding: 4px;
   font-weight: bold;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .btn-panel {
   display: flex;
   height: 100px;
+}
+
+.btn {
+  width: calc( var(--primary-width) * 0.25);
+  font-size: 1rem;
+  font-weight: bold;
 }

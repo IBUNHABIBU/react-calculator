@@ -6,7 +6,7 @@ const Button = ({ value, clickHandler }) => {
   const handleClick = (btnName) => clickHandler(btnName);
   return (
     <>
-      <button type="button" onClick={() => handleClick(value)}>
+      <button className="btn" type="button" onClick={() => handleClick(value)}>
         { value }
       </button>
     </>

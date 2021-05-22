@@ -11,7 +11,7 @@ const Routes = () => (
     <Nav />
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact="/Calculator" component={App} />
+      <Route exact path="/Calculator" component={App} />
       <Route exact path="/Quote" component={Quote} />
     </Switch>
     <Footer />

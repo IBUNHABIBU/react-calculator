@@ -1,4 +1,5 @@
 import React from 'react';
+import './stylesheet/nav.css';
 
 const Nav = () => (
   <div className="nav">

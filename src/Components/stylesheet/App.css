@@ -1,5 +1,5 @@
 :root {
-  --primary-color:  rgb(128, 128, 128);
+  --primary-color: rgb(128, 128, 128);
   --primay-height: 100px;
   --primary-width: 700px;
 }
@@ -33,14 +33,14 @@
 }
 
 .btn {
-  width: calc( var(--primary-width) * 0.25);
+  width: calc(var(--primary-width) * 0.25);
   font-size: 1rem;
   font-weight: bold;
   border: 1px solid var(--primary-color);
 }
 
 .btn.zero {
-  width: calc( var(--primary-width) * 0.5 );
+  width: calc(var(--primary-width) * 0.5);
 }
 
 .btn.o-class {

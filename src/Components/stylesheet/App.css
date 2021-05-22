@@ -1,0 +1,48 @@
+:root {
+  --primary-color: rgb(128, 128, 128);
+  --primay-height: 100px;
+  --primary-width: 700px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+
+.app-container {
+  width: var(--primary-width);
+}
+
+.display-container {
+  display: flex;
+  height: var(--primay-height);
+  color: #fff;
+  background-color: var(--primary-color);
+  padding: 4px;
+  font-size: 2rem;
+  font-weight: bold;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn-panel {
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+}
+
+.btn {
+  width: calc(var(--primary-width) * 0.25);
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid var(--primary-color);
+}
+
+.btn.zero {
+  width: calc(var(--primary-width) * 0.5);
+}
+
+.btn.o-class {
+  background-color: #ff9000;
+}

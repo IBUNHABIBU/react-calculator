@@ -38,11 +38,11 @@ The objective of this project is to build a simple calculator using Reactjs. It 
 
 ### Features
 
-   #### Milestone 1
+   #### Milestone 5
 
-    - Setup the project with NPM use
-    - import proptypes 
-    - import big.js
+    - Integrating logic with components
+    - implementing the clickHandler
+    - add big.js
     - deploy to heroku 
 
 
@@ -58,6 +58,7 @@ This project was built using these technologies.
 - Node.js
 - NPM
 - big.js
+- propTypes
 
 ### How to Install 
 
@@ -98,7 +99,7 @@ Enjoy playing it.
 <!-- CONTACT -->
 
 
-## link to  [Live Demo ](https://mathmag.herokuapp.com/)
+## link to  [Live Demo ](https://mathics.herokuapp.com/)
 
 ## Authors
 

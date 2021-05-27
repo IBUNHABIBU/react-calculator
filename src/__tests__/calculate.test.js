@@ -36,4 +36,19 @@ describe("calculate function when there is  operation", ()=> {
         let result = calculate(data, btnValue);
         expect(result.total).toEqual("-46");
     })
+
+    it("adds two numbers when the operation is + ", ()=> {
+        data = { total: "2", next: "8", operation: "+" }
+        let btnValue = "="
+        let result = calculate(data, btnValue);
+        console.log(result);
+        expect(result.total).toEqual("10");
+    })
+
+    it("subtracts two numbers when the operation is -  ", ()=> {
+        data = { total: "2", next: "48", operation: "-" }
+        let btnValue = "="
+        let result = calculate(data, btnValue);
+        expect(result.total).toEqual("-46");
+    })
 })

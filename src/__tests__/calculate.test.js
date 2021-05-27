@@ -63,6 +63,6 @@ describe("Clear the display", () => {
         data = { total: "172", next: 100, operation: "+" }
         let btnValue = "AC"
         let result = calculate(data, btnValue);
-        expect(result.total).toEqual("null");
+        expect(result.total).toEqual(null);
     })
 })

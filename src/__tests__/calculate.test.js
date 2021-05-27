@@ -57,3 +57,12 @@ describe("calculate function when there is  operation", ()=> {
         expect(result.total).toEqual("0.12");
     })
 })
+
+describe("Clear the display", () => {
+    it("resets the display to zeror when AC button is pressed", () => {
+        data = { total: "172", next: 100, operation: "+" }
+        let btnValue = "AC"
+        let result = calculate(data, btnValue);
+        expect(result.total).toEqual("null");
+    })
+})

@@ -26,7 +26,6 @@ describe("calculate function when there is  operation", ()=> {
         data = { total: "2", next: "8", operation: "+" }
         let btnValue = "="
         let result = calculate(data, btnValue);
-        console.log(result);
         expect(result.total).toEqual("10");
     })
 
@@ -37,18 +36,24 @@ describe("calculate function when there is  operation", ()=> {
         expect(result.total).toEqual("-46");
     })
 
-    it("adds two numbers when the operation is + ", ()=> {
-        data = { total: "2", next: "8", operation: "+" }
+    it("multiplies two numbers when the operation is x ", ()=> {
+        data = { total: "2", next: "8", operation: "X" }
         let btnValue = "="
         let result = calculate(data, btnValue);
-        console.log(result);
-        expect(result.total).toEqual("10");
+        expect(result.total).toEqual("16");
     })
 
-    it("subtracts two numbers when the operation is -  ", ()=> {
-        data = { total: "2", next: "48", operation: "-" }
+    it("devides two numbers when the operation is ÷ ", ()=> {
+        data = { total: "192", next: "48", operation: "÷" }
         let btnValue = "="
         let result = calculate(data, btnValue);
-        expect(result.total).toEqual("-46");
+        expect(result.total).toEqual("4");
+    })
+
+    it("gives the percentage when the operation is % ", ()=> {
+        data = { total: "12", next: 100, operation: "%" }
+        let btnValue = "="
+        let result = calculate(data, btnValue);
+        expect(result.total).toEqual("0.12");
     })
 })

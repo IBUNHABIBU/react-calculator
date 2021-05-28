@@ -1,5 +1,5 @@
 /* globals describe, expect, it, beforeEach */
-import { mount, shallow } from 'enzyme';
+import { shallow } from 'enzyme';
 import Display from '../Components/Display';
 
 let wrapper;

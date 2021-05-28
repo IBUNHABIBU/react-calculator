@@ -1,3 +1,4 @@
+/* globals describe, expect, it, beforeEach */ 
 import { shallow } from 'enzyme';
 import Quote from '../Components/Quote';
 

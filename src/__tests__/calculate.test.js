@@ -1,4 +1,4 @@
-/* globals describe, expect, it */ 
+/* globals describe, expect, it, beforeEach */ 
 import calculate from '../logic/calculate';
 
 let data;

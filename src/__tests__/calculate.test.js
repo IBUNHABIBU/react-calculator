@@ -1,3 +1,4 @@
+/* globals describe, expect, it */ 
 import calculate from '../logic/calculate';
 
 let data;

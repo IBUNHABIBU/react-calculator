@@ -1,3 +1,4 @@
+/* globals describe, expect, it */ 
 import { mount, shallow } from 'enzyme';
 import Display from '../Components/Display';
 

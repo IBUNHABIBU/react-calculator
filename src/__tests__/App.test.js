@@ -1,3 +1,4 @@
+/* globals describe, expect, it */ 
 import { shallow } from 'enzyme';
 import App from '../Components/App';
 

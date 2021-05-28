@@ -1,14 +1,13 @@
-import Home from '../Components/Home';
-import { shallow } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 import Display from '../Components/Display';
 
 let wrapper;
 beforeEach(()=> {
-    wrapper = shallow(<Display />)
+    wrapper = shallow (<Display result = "48" />)
 })
 
-describe("Show the home page element", () => {
-    it("should display the Home page paragraphs", () => {
-        expect(wrapper.find('h1').text()).toContain('Welcome to Math-magician Calculator');
+describe("Display the result", () => {
+    it("should display the result of the calculation", () => {
+        expect(wrapper.find('.display-container').text()).toContain("48");
     })
 })

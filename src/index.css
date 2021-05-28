@@ -33,6 +33,6 @@ code {
 .logo {
   color: rgb(94, 94, 160);
   font-size: 2rem;
-  text-shadow: -3px -3px 0px rgba(156, 154, 207, 1); 
+  text-shadow: -3px -3px 0 rgba(156, 154, 207, 1); 
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

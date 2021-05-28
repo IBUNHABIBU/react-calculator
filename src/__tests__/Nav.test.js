@@ -1,4 +1,4 @@
-/* globals describe, expect, it, beforeEach */ 
+/* globals describe, expect, it, beforeEach */
 import { shallow } from 'enzyme';
 import Nav from '../Components/Nav';
 

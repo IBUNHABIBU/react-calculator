@@ -1,4 +1,4 @@
-/* globals describe, expect, it, beforeEach */ 
+/* globals describe, expect, it, beforeEach */
 import { mount, shallow } from 'enzyme';
 import Display from '../Components/Display';
 

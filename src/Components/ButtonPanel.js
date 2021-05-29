@@ -19,7 +19,7 @@ const ButtonPanel = ({ clickHandler }) => {
 
       {
           btnGroups.map((group) => (
-            <div className="btn-panel">
+            <div className="btn-panel" key={group}>
               {
                 group.map((item) => {
                   const wide = item === '0' ? 'zero' : '';
@@ -29,6 +29,7 @@ const ButtonPanel = ({ clickHandler }) => {
                       wide={wide}
                       color={color}
                       value={item}
+                      key={item}
                       clickHandler={() => handleClick(item)}
                     />
                   );

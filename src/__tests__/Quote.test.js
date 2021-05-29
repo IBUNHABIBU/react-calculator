@@ -14,9 +14,9 @@ describe('Show the quote of the day', () => {
   });
 });
 
-describe("snapshots", () => {
-  it("renders App component correctly", () => {
+describe('snapshots', () => {
+  it('renders App component correctly', () => {
     const tree = renderer.create(<Quote />).toJSON();
     expect(tree).toMatchSnapshot();
-  })
-})
+  });
+});

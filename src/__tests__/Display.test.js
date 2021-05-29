@@ -14,9 +14,9 @@ describe('Display the result', () => {
   });
 });
 
-describe("snapshots", () => {
-  it("renders App component correctly", () => {
+describe('snapshots', () => {
+  it('renders App component correctly', () => {
     const tree = renderer.create(<Display />).toJSON();
     expect(tree).toMatchSnapshot();
-  })
-})
+  });
+});

@@ -14,9 +14,9 @@ describe('Show the home page element', () => {
   });
 });
 
-describe("snapshots", () => {
-  it("renders App component correctly", () => {
+describe('snapshots', () => {
+  it('renders App component correctly', () => {
     const tree = renderer.create(<Home />).toJSON();
     expect(tree).toMatchSnapshot();
-  })
-})
+  });
+});

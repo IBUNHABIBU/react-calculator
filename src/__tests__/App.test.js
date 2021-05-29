@@ -18,9 +18,9 @@ describe('Combine all components', () => {
   });
 });
 
-describe("snapshots", () => {
-  it("renders App component correctly", () => {
+describe('snapshots', () => {
+  it('renders App component correctly', () => {
     const tree = renderer.create(<App />).toJSON();
     expect(tree).toMatchSnapshot();
-  })
-})
+  });
+});

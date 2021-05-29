@@ -14,9 +14,9 @@ describe('Menu navigation', () => {
   });
 });
 
-describe("snapshots", () => {
-  it("renders App component correctly", () => {
+describe('snapshots', () => {
+  it('renders App component correctly', () => {
     const tree = renderer.create(<Nav />).toJSON();
     expect(tree).toMatchSnapshot();
-  })
-})
+  });
+});

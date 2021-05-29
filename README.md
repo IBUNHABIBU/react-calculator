@@ -19,6 +19,10 @@
   </p>
 </p>
 
+
+![screenshot](https://github.com/IBUNHABIBU/react-calculator/blob/testing/public/home.PNG)
+![screenshot](https://github.com/IBUNHABIBU/react-calculator/blob/testing/public/calculator.PNG)
+
 ## Table of Contents
 
 * [About the Project](#about-the-project)
@@ -38,12 +42,7 @@ The objective of this project is to build a simple calculator using Reactjs. It 
 
 ### Features
 
-   #### Milestone 5
-
-    - Integrating logic with components
-    - implementing the clickHandler
-    - add big.js
-    - deploy to heroku 
+  - It has all the basic calculating function i.e addition, subraction, division, multiplication and parcentage/
 
 
 <!-- BUILD WITH -->

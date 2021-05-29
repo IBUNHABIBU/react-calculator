@@ -3,7 +3,10 @@ import './stylesheet/nav.css';
 
 const Nav = () => (
   <div className="nav">
-    <h1>Math Magician</h1>
+    <div className="logo">
+      <span className="math">Math</span>
+      Magician
+    </div>
     <div className="nav-bar">
       <a href="/">Home</a>
       <a href="/Calculator">Calculator</a>

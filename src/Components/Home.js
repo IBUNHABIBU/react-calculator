@@ -1,7 +1,8 @@
 import React from 'react';
 
 const Home = () => (
-  <div>
+  <div className="home-container">
+    <h1 align="center">Welcome to Math-magician Calculator</h1>
     <p>
       In this project you will learn how to build a very simple React application.
       You will work in a real-world project for a

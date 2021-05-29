@@ -1,5 +1,6 @@
 /* globals describe, expect, it, beforeEach */
 import { shallow } from 'enzyme';
+import renderer from 'react-test-renderer';
 import Home from '../Components/Home';
 
 let wrapper;
@@ -12,3 +13,10 @@ describe('Show the home page element', () => {
     expect(wrapper.find('h1').text()).toContain('Welcome to Math-magician Calculator');
   });
 });
+
+describe("snapshots", () => {
+  it("renders App component correctly", () => {
+    const tree = renderer.create(<Home />).toJSON();
+    expect(tree).toMatchSnapshot();
+  })
+})

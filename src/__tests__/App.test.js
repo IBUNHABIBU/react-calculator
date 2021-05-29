@@ -1,5 +1,6 @@
 /* globals describe, expect, it, beforeEach */
 import { shallow } from 'enzyme';
+import renderer from 'react-test-renderer';
 import App from '../Components/App';
 
 let wrapper;
@@ -16,3 +17,10 @@ describe('Combine all components', () => {
     expect(wrapper.find('.app-container').text()).toContain('<ButtonPanel />');
   });
 });
+
+describe("snapshots", () => {
+  it("renders App component correctly", () => {
+    const tree = renderer.create(<App />).toJSON();
+    expect(tree).toMatchSnapshot();
+  })
+})
